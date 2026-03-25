@@ -1,0 +1,37 @@
+# 3d Lennard-Jones melt
+
+units		lj
+atom_style	atomic
+
+lattice		sc 0.3
+region		box block 0 14 0 14 0 14
+create_box	1 box
+create_atoms	1 box
+mass		1 1.0
+
+variable temp_val world 1.0000e-03 1.3475e-03 1.8158e-03 2.4469e-03 3.2972e-03 4.4431e-03 5.9871e-03 8.0678e-03 1.0872e-02 1.4650e-02 1.9741e-02 2.6601e-02 3.5846e-02 4.8303e-02 6.5089e-02 8.7710e-02 1.1819e-01 1.5926e-01 2.1461e-01 2.8920e-01 3.8970e-01 5.2513e-01 7.0762e-01 9.5354e-01
+
+variable Ntot equal 100000
+
+#velocity        all create ${temp_val} 14903 loop geom
+
+pair_style	table linear 3001
+pair_coeff	1 1 ljgp.tab LJGP 2.5
+
+neighbor	0.3 bin
+neigh_modify	every 20 delay 0 check no
+
+timestep 0.005
+# TBEG=1.0 TEND=1.0 TDAMP=0.5
+fix             1 all nvt temp ${temp_val} ${temp_val} $(100.0*dt) 
+
+# output configuration every 500 steps
+#dump 1 all atom 1000 dump.lammps.out
+variable rep world 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+dump 1 all atom 100000 dump.temper.${rep}
+
+thermo          1000
+# run 5000 steps
+#run             ${Ntot}
+
+temper ${Ntot} 100 ${temp_val} 1 3847 58382

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+function Usage(){
+    echo -n "Usage:"
+    echo -e "\t qlammps [-n ntask] [-t nthread]"
+    exit 1
+}
+
+nthread=1
+ntask=4
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+	-n|--extension)
+	    ntask=$2
+	    shift # past argument
+	    shift # past value
+	    ;;
+	-t|--threads)
+	    nthread=$2
+	    shift # past argument
+	    shift # past value
+	    ;;
+	-*|--*)
+	    Usage
+	    ;;
+	*)
+	    Usage
+	    ;;
+	# *)
+	#     POSITIONAL_ARGS+=("$1") # save positional arg
+	#     shift # past argument
+	#     ;;
+    esac
+done
+
+export OMP_NUM_THREADS=$nthread
+
+if [ -f in.melt ]
+then
+    mpirun -np $ntask lmp_mpi -partition 16x4 -sc none -in in.melt
+else
+    echo "Cannot find in.melt"
+fi
+
+
