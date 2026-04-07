@@ -1,0 +1,14 @@
+! AFLOW::QE BEGIN 
+! In1   [BCT,BCT2,tI2] (STD_PRIM doi:10.10
+&system                     ! // aflow 
+ ibrav=0,                   ! // free 
+ nat=1,                     ! // a.atoms.size() 
+ ntyp=1                     ! // a.num_each_type.size() 
+ /
+ATOMIC_POSITIONS (crystal)
+  In      0.00000000000000   0.00000000000000   0.00000000000000  ! // In 
+CELL_PARAMETERS (angstrom)
+  -1.64862220326816   1.64862220326816   2.45448079182210
+   1.64862220326816  -1.64862220326816   2.45448079182210
+   1.64862220326816   1.64862220326816  -2.45448079182210
+# AFLOW::QE END 

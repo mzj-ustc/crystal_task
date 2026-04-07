@@ -1,0 +1,15 @@
+! AFLOW::QE BEGIN 
+! As1   [RHL,RHL1,hR2] (STD_PRIM doi:10.10
+&system                     ! // aflow 
+ ibrav=0,                   ! // free 
+ nat=2,                     ! // a.atoms.size() 
+ ntyp=1                     ! // a.num_each_type.size() 
+ /
+ATOMIC_POSITIONS (crystal)
+  As      0.72657310146059   0.72657310146059   0.72657310146059  ! // As 
+  As      0.27342689853941   0.27342689853941   0.27342689853941  ! // As 
+CELL_PARAMETERS (angstrom)
+   3.76152219915812  -1.90886672173618   0.00074982422368
+   3.76152219915812   1.90886672173618   0.00074982422368
+   2.79219591602206   0.00000000000000   3.16171851133166
+# AFLOW::QE END 

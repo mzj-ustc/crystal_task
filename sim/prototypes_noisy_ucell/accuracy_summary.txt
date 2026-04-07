@@ -1,0 +1,55 @@
+================================================================================
+ACCURACY STATISTICS
+================================================================================
+
+Sigma: 0.001
+  True Accuracy: 1.0000
+  Best Symprec: 0.05
+
+Sigma: 0.005
+  True Accuracy: 1.0000
+  Best Symprec: 0.2
+
+Sigma: 0.01
+  True Accuracy: 1.0000
+  Best Symprec: 0.2
+
+Sigma: 0.015
+  True Accuracy: 0.9995
+  Best Symprec: 0.3
+
+Sigma: 0.02
+  True Accuracy: 0.9988
+  Best Symprec: 0.3
+
+Sigma: 0.03
+  True Accuracy: 0.9912
+  Best Symprec: 0.5
+
+Sigma: 0.04
+  True Accuracy: 0.9853
+  Best Symprec: 0.5
+
+Sigma: 0.05
+  True Accuracy: 0.9674
+  Best Symprec: 0.5
+
+Sigma: 0.06
+  True Accuracy: 0.6557
+  Best Symprec: 0.4
+
+Sigma: 0.07
+  True Accuracy: 0.4787
+  Best Symprec: 0.4
+
+Sigma: 0.08
+  True Accuracy: 0.2271
+  Best Symprec: 0.3
+
+Sigma: 0.1
+  True Accuracy: 0.1308
+  Best Symprec: 0.2
+
+================================================================================
+EXECUTION COMPLETE
+================================================================================

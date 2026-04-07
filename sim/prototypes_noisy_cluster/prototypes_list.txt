@@ -1,0 +1,68 @@
+Prototype	# Species▴	# Atoms	Pearson Symbol	AFLOW Prototype	Space Group Symbol	Space Group Number	Notes
+As	1	2	hR2	A_hR2_166_c	R3ˉm	166	α–As (A7) Structure
+B	1	12	hR12		A_hR12_166_2h	R3ˉm	166	α–B (hR12) Structure
+B	1	105	hR105		A_hR105_166_bc9h4i	R3ˉm	166	β–B (R–105) Structure
+B	1	50	tP50​	A_tP50_134_b2m2n	P42​/nnm	134	T–50 B (Ag​) Structure
+C	1	4	hP4		A_hP4_186_ab	P63​mc	186	Buckled Graphite Structure
+C	1	12	tP12		A_tP12_138_bi	P42​/ncm	138	C (T12 Group IV) Structure
+C	1	2	cF8	A_cF8_227_a	Fd3ˉm	227	Diamond (A4) Structure
+C	1	60	cF240		A_cF240_202_h2i	Fm3ˉ	202	FCC C60 Buckminsterfullerene Structure
+C	1	4	hP4	A_hP4_194_bc	P63​/mmc	194	Hexagonal Graphite (A9) Crystal Structure
+C	1	6	hP6		A_hP6_194_h	P63​/mmc	194	Hypothetical Tetrahedrally Bonded Carbon with 3–Member Rings
+C	1	4	tI8		A_tI8_139_h	I4/mmm	139	Hypothetical Tetrahedrally Bonded Carbon with 4–Member Rings
+C	1	4	hP4		A_hP4_194_f	P63​/mmc	194	Lonsdaleite (Hexagonal Diamond) Structure
+C	1	8	mC16		A_mC16_12_4i	C2/m	12	M–carbon Structure
+C	1	16	oP16		A_oP16_55_2g2h	Pbam	55	R–carbon Structure
+C	1	2	hR2		A_hR2_166_c	R3ˉm	166	Rhombohedral Graphite Structure
+C	1	8	mP8		A_mP8_10_2m2n	P2/m	10	S–carbon Structure
+C	1	240	cP240		A_cP240_205_10d	Pa3ˉ	205	Simple Cubic C60 Buckminsterfullerene Structure
+Cf	1	4	aP4		A_aP4_2_aci	P1ˉ	2	Cf Structure
+Cl	1	16	tP16	A_tP16_138_j	P42​/ncm	138	Cl (A18) Structure
+Cu	1	1	cF4	A_cF4_225_a	Fm3ˉm	225	Face–Centered Cubic (Cu, A1, fcc) Structure
+Ga	1	4	oS8	A_oS8_64_f	Cmca	64	α–Ga (A11) Structure
+Ga	1	2	mC4		A_mC4_15_e	C2/c	15	β–Ga (obsolete) Structure
+H	1	12	mC24		A_mC24_15_2e2f	C2/c	15	H–III (300 GPa) Structure
+Hg	1	1	hR1	A_hR1_166_a	R3ˉm	166	α–Hg (A10) Structure
+HgSn6–10	1	hP1	Af​	A_hP1_191_a	P6/mmm	191	Simple Hexagonal Lattice (Af​)
+I	1	4	oS8	A_oS8_64_f	Cmca	64	Molecular Iodine (I, A14) Crystal Structure
+In	1	1	tI2	A_tI2_139_a	I4/mmm	139	In (A6) Structure
+La	1	4	hP4′	A_hP4_194_ac	P63​/mmc	194	α–La (A3′) Structure
+Li	1	8	cI16		A_cI16_220_c	I4ˉ3d	220	High–pressure cI16 Li Structure
+Mg	1	2	hP2	A_hP2_194_c	P63​/mmc	194	Hexagonal Close Packed (Mg, A3, hcp) Structure
+Mn	1	29	cI58	A_cI58_217_ac2g	I4ˉ3m	217	α–Mn (A12) Structure
+Mn	1	20	cP20	A_cP20_213_cd	P41​32	213	β–Mn (A13) Structure
+N	1	8	cP8		A_cP8_198_2a	P21​3	198	α–N (P213) Structure
+N	1	8	cP8		A_cP8_205_c	Pa3ˉ	205	α–N (Pa3) Structure
+N	1	4	tP4		A_tP4_136_f	P42​/mnm	136	γ–N Structure
+Np	1	8	oP8​	A_oP8_62_2c	Pnma	62	α–Np (Ac​) Structure
+Np	1	4	tP4​	A_tP4_129_ac	P4/nmm	129	β–Np (Ad​) Structure
+O	1	2	mC4		A_mC4_12_i	C2/m	12	α–O Structure
+O	1	2	hR2		A_hR2_166_c	R3ˉm	166	β–O Structure
+P	1	4	oC8	A_oC8_64_f	Cmca	64	Black Phosphorus (A17) Crystal Structure
+P	1	84	mP84		A_mP84_13_21g	P2/c	13	Monoclinic (Hittorf's) Phosphorus Structure
+Pa	1	1	tI2​	A_tI2_139_a	I4/mmm	139	α–Pa (Aa​) Structure
+Po	1	1	cP1​	A_cP1_221_a	Pm3ˉm	221	α–Po (Ah​, simple cubic) Structure
+Po	1	1	hR1​	A_hR1_166_a	R3ˉm	166	β–Po (Ai​) Structure
+Po	1	6	mC12	A_mC12_5_3c	C2	5	Po (A19) Structure
+Pu	1	16	mP16		A_mP16_11_8e	P21​/m	11	α–Pu Structure
+Pu	1	17	mC34		A_mC34_12_ah3i2j	C2/m	12	β–Pu Structure
+Pu	1	2	oF8		A_oF8_70_a	Fddd	70	γ–Pu Structure
+S	1	32	oF128	A_oF128_70_4h	Fddd	70	α–S (A16) Structure
+S	1	9	hP9		A_hP9_154_bc	P32​21	154	S–II Structure
+S	1	8	tI16		A_tI16_142_f	I41​/acd	142	S–III Structure
+Sc	1	6	hP6		A_hP6_178_a	P61​22	178	Sc–V (High–pressure) Structure
+Se	1	32	mP32​	A_mP32_14_8e	P21​/c	14	β–Se (Al​) Structure
+Se	1	3	hP3	A_hP3_152_a	P31​21	152	γ–Se (A8) Structure
+Se	1	64	mP64​	A_mP64_14_16e	P21​/c	14	Se (Ak​) Structure
+Si	1	12	tP12		A_tP12_96_ab	P43​21​2	96	"ST12" Structure of Si
+Si	1	8	cI16		A_cI16_206_c	Ia3ˉ	206	BC8 (Si) Structure
+Si	1	2	tI4		A_tI4_139_e	I4/mmm	139	Hypothetical BCT5 Si Structure
+Si	1	34	cF136		A_cF136_227_aeg	Fd3ˉm	227	Si34 Clathrate Structure
+Si	1	46	cP46		A_cP46_223_dik	Pm3ˉn	223	Si46 Clathrate Structure
+Si24	1	12	oC24		A_oC24_63_3f	Cmcm	63	Si24 Clathrate Structure
+Sm	1	3	hR3	A_hR3_166_ac	R3ˉm	166	α–Sm (C19) Structure
+Sn	1	2	tI4	A_tI4_141_a	I41​/amd	141	β–Sn (A5) Structure
+Te	1	4	mP4		A_mP4_4_2a	P21​	4	High–pressure Te Structure
+U	1	2	oC4	A_oC4_63_c	Cmcm	63	α–U (A20) Structure
+U	1	30	tP30​	A_tP30_136_bf2ij	P42​/mnm	136	β–U (Ab​) Structure
+W	1	1	cI2	A_cI2_229_a	Im3ˉm	229	Body–Centered Cubic (W, A2, bcc) Structure
