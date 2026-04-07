@@ -1,0 +1,15 @@
+latent: 3
+neurons: 512
+is_train: False
+is_restart: False
+name: LJGP_2D
+fout: dat/qs_2d.npy
+fin: ./dat/ljgp_params_2d.npy
+batch: 128
+epoches: 6000
+lr: 0.0005
+step_size: 2000
+device: 0
+Kmax: 20
+alpha: 0.001
+input_f_dim: 2

@@ -1,0 +1,15 @@
+latent: 3
+neurons: 128
+is_train: False
+is_restart: False
+name: LJ
+fout: ./qs.npy
+fin: ./dat/LJ/ljgp_params.npy
+batch: 128
+epoches: 6000
+lr: 0.0005
+step_size: 2000
+device: 1
+Kmax: 30
+alpha: 0.001
+input_f_dim: 2
